@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply bg-gray-100;
+}
+
+.container {
+    @apply mx-auto max-w-screen-lg;
+}
+
+.header {
+    @apply text-center py-12;
+}
+
+.title {
+    @apply text-4xl font-bold mb-4;
+}
+
+.sub-title {
+    @apply text-xl;
+}
+
+.api-response {
+    @apply mt-8 p-5 bg-white rounded shadow-lg;
+}
+
+.json-response {
+    @apply overflow-auto;
+}
+
+.button {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
